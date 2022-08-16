@@ -16,9 +16,7 @@ window.onload=function(){
 
         $("#search-bar").keyup(function() {
             const value = $(this).val();
-            // const resName = document.querySelector(`#results-name`);
             document.querySelector(`#results-name`).innerHTML = " ";
-            
             xhttp.open("GET", `https://api.pexels.com/v1/search/?page=1&per_page=12&query=${value}`, true);
             xhttp.setRequestHeader('Authorization', '563492ad6f91700001000001a7ba1db44ff44af29744cadd59a69656');
             xhttp.send();
