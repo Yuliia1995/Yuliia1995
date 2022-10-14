@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/MiMariachi/styles.css">
+    <title>Mi Mariachi | Reservations</title>
+</head>
+<body>
+    <header>
+        <div class="mobile-only title-text">Mi Mariachi</div>
+        <img class="logo" src="/MiMariachi/assets/mariachi-logo.png" alt="">
+        <div class="mobile-only title-text">Taquería</div>
+        <div class="desktop-only">
+            <a class="btn" href="/MiMariachi/aboutus.html">About Us</a>
+            <a class="btn" href="/MiMariachi/menu.html">Menu</a>
+            <a class="btn" href="/MiMariachi/reservations.html">Make Reservation</a>
+        </div>
+    </header>
+    <section>
+        <h1>Reservations</h1>
+        <p>Fill out the form below to make your Reservation</p>
+        <form action="#" method="post">
+            <div class="form-sec mobile-only">
+                <label for="fname">First name</label>
+                <input type="text" name="fname" id="fname" placeholder="Jose">
+            </div>
+            <div class="form-sec mobile-only">
+                <label for="lname">Last name</label>
+                <input type="text" name="lname" id="lname" placeholder="Buendia">
+            </div>
+            <div class="form-sec desktop-only">
+                <label for="fname">First name</label>
+                <input type="text" name="fname" id="fname" placeholder="Jose">
+                <label for="lname">Last name</label>
+                <input type="text" name="lname" id="lname" placeholder="Buendia">
+            </div>
+            <div class="form-sec">
+                <label for="numPpl" >Size of your party</label>
+                <input type="number" name="numPpl" id="numPpl" size="4" maxlength="2">
+            </div>
+            
+            <input type="checkbox" name="buyout" id="buyout" title="Our restaurant can accomodate up to 20 people at the time.
+Thank you for understanding.">
+            <label id="lbl-buyout" for="buyout" title="Our restaurant can accomodate up to 20 people at the time.
+Thank you for understanding.">Check if requesting a buyout</label>
+            <div class="form-sec desktop-only">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="youremail@email.com">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="2012221998">
+            </div>
+            <div class="form-sec mobile-only">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="youremail@email.com">
+            </div>
+            <div class="form-sec mobile-only">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="2012221998">
+            </div>
+            <div class="form-sec desktop-only">
+                <label for="date">Select the date</label>
+                <input type="date" name="date" id="date">
+                <label for="time">Select the time slot</label>
+                <select name="time" id="time">
+                    <option value="09:00">09:00 AM</option>
+                    <option value="09:15">09:15 AM</option>
+                    <option value="09:30">09:30 AM</option>
+                    <option value="09:45">09:45 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:15">10:15 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="10:45">10:45 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="11:15">11:15 AM</option>
+                    <option value="11:30">11:30 AM</option>
+                    <option value="11:45">11:45 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="12:15">12:15 PM</option>
+                    <option value="12:30">12:30 PM</option>
+                    <option value="12:45">12:45 PM</option>
+                    <option value="13:00">01:00 PM</option>
+                    <option value="13:15">01:15 PM</option>
+                    <option value="13:30">01:30 PM</option>
+                    <option value="13:45">01:45 PM</option>
+                    <option value="14:00">02:00 PM</option>
+                    <option value="14:15">02:15 PM</option>
+                    <option value="14:30">02:30 PM</option>
+                    <option value="14:45">02:45 PM</option>
+                    <option value="15:00">03:00 PM</option>
+                    <option value="15:15">03:15 PM</option>
+                    <option value="15:30">03:30 PM</option>
+                    <option value="15:45">03:45 PM</option>
+                    <option value="16:00">04:00 PM</option>
+                    <option value="16:15">04:15 PM</option>
+                    <option value="16:30">04:30 PM</option>
+                    <option value="16:45">04:45 PM</option>
+                    <option value="17:00">05:00 PM</option>
+                    <option value="17:15">05:15 PM</option>
+                    <option value="17:30">05:30 PM</option>
+                    <option value="17:45">05:45 PM</option>
+                    <option value="18:00">06:00 PM</option>
+                    <option value="18:15">06:15 PM</option>
+                    <option value="18:30">06:30 PM</option>
+                    <option value="18:45">06:45 PM</option>
+                    <option value="19:00">07:00 PM</option>
+                    <option value="19:15">07:15 PM</option>
+                    <option value="19:30">07:30 PM</option>
+                    <option value="19:45">07:45 PM</option>
+                    <option value="20:00">08:00 PM</option>
+                    <option value="20:15">08:15 PM</option>
+                    <option value="20:30">08:30 PM</option>
+                </select>
+            </div>
+            <div class="form-sec mobile-only">
+                <label for="date">Select the date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div class="form-sec mobile-only">
+                <label for="time">Select the time</label>
+                <select name="time" id="time">
+                    <option value="09:00">09:00 AM</option>
+                    <option value="09:15">09:15 AM</option>
+                    <option value="09:30">09:30 AM</option>
+                    <option value="09:45">09:45 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:15">10:15 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="10:45">10:45 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="11:15">11:15 AM</option>
+                    <option value="11:30">11:30 AM</option>
+                    <option value="11:45">11:45 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="12:15">12:15 PM</option>
+                    <option value="12:30">12:30 PM</option>
+                    <option value="12:45">12:45 PM</option>
+                    <option value="13:00">01:00 PM</option>
+                    <option value="13:15">01:15 PM</option>
+                    <option value="13:30">01:30 PM</option>
+                    <option value="13:45">01:45 PM</option>
+                    <option value="14:00">02:00 PM</option>
+                    <option value="14:15">02:15 PM</option>
+                    <option value="14:30">02:30 PM</option>
+                    <option value="14:45">02:45 PM</option>
+                    <option value="15:00">03:00 PM</option>
+                    <option value="15:15">03:15 PM</option>
+                    <option value="15:30">03:30 PM</option>
+                    <option value="15:45">03:45 PM</option>
+                    <option value="16:00">04:00 PM</option>
+                    <option value="16:15">04:15 PM</option>
+                    <option value="16:30">04:30 PM</option>
+                    <option value="16:45">04:45 PM</option>
+                    <option value="17:00">05:00 PM</option>
+                    <option value="17:15">05:15 PM</option>
+                    <option value="17:30">05:30 PM</option>
+                    <option value="17:45">05:45 PM</option>
+                    <option value="18:00">06:00 PM</option>
+                    <option value="18:15">06:15 PM</option>
+                    <option value="18:30">06:30 PM</option>
+                    <option value="18:45">06:45 PM</option>
+                    <option value="19:00">07:00 PM</option>
+                    <option value="19:15">07:15 PM</option>
+                    <option value="19:30">07:30 PM</option>
+                    <option value="19:45">07:45 PM</option>
+                    <option value="20:00">08:00 PM</option>
+                    <option value="20:15">08:15 PM</option>
+                    <option value="20:30">08:30 PM</option>
+                </select>
+            </div>
+            <label for="comments" id="lbl-comments">Special comments:</label><br>
+            <textarea id="comments"></textarea>
+        </form>
+    </section>
+    <div class="mariachi-bg add-height"><h2>See you soon! <br> ¡Hasta pronto!</h2></div>
+    <section class="mobile-only flex-link"><a class="btn" href="/MiMariachi/iindex.html">Home</a><a class="btn" href="/MiMariachi/aboutus.html">About Us</a><a class="btn" href="/MiMariachi/menu.html">Menu</a></section>
+    <footer>
+        <div class="foot-left">
+            <p class="desktop-only">Location:</p>
+            <address>213 Sip Ave, Jersey City NJ 07306 </address>
+        </div>
+        <div class="desktop-only foot-center">
+            <h4>Thank you!</h4>
+            <p>Your support means everything to us.<br> Shop Local, Eat Fresh</p>
+        </div>
+        <div class="foot-right">
+            <p>Tel:<a href="tel:+12012221998">(201) 222 1998</a></p>
+        </div>
+        <h4>Mi Mariachi | 2022</h4>
+    </footer>
+</body>
+</html>
