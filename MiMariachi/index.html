@@ -13,8 +13,13 @@
 <body>
     <header>
         <div class="mobile-only title-text">Mi Mariachi</div>
-        <img class="logo" src="/MiMariachi/assets/mariachi-logo.png" alt="">
+        <img class="logo desktop-only" src="/MiMariachi/assets/mariachi-logo-desktop.png" alt="">
+        <img class="logo mobile-only" src="/MiMariachi/assets/mariachi-logo.png" alt="">
         <div class="mobile-only title-text">Taquería</div>
+        <div class="desktop-only flex-col">
+            <h2>Mi Mariachi</h2>
+            <h2>Taquería</h2>
+        </div>
         <div class="desktop-only">
             <a class="btn" href="/MiMariachi/aboutus.html">About Us</a>
             <a class="btn" href="/MiMariachi/menu.html">Menu</a>
@@ -22,30 +27,36 @@
         </div>
     </header>
     <section class="banner">
-        <div class="flex-col">
+        <div class="flex-col mobile-only">
             <h1>Mi Mariachi</h1>
             <h2>Authentic Mexican Taqueria</h2>
         </div>
-        <div class="desktop-only">
-            <p>Located close to Journal Square in Jersey City. Mi Mariachi Taquería brings the authentic Mexican flavor to this diverse neighborhood. Food is always fresh. We also cater and deliver.</p>
-            <a class="btn" href="/MiMariachi/menu.html">Menu</a>
+        <div class="desktop-only mini-banner">
+            <div class="flex-col">
+                <h1>Mi Mariachi</h1>
+                <h2>Authentic Mexican Taqueria</h2>
+            </div>
+            <p>Located in the heart of Journal Square in Jersey City. Mi Mariachi Taquería brings the authentic Mexican flavor to this diverse neighborhood. <br>Food is always fresh. We also cater and deliver.</p>
+            <a id="menu-btn" href="/MiMariachi/menu.html">Menu</a>
         </div>
         <div class="flex-row mobile-only"><a class="btn" href="/MiMariachi/aboutus.html">About Us</a><a class="btn" href="/MiMariachi/menu.html">Menu</a><a class="btn" href="/MiMariachi/reservations.html">Make Reservation</a></div>
         
     </section>
     <footer>
-        <div class="foot-left">
-            <p class="desktop-only">Location:</p>
-            <address>213 Sip Ave, Jersey City NJ 07306 </address>
-        </div>
-        <div class="desktop-only foot-center">
-            <h4>Thank you!</h4>
-            <p>Your support means everything to us.<br> Shop Local, Eat Fresh</p>
-        </div>
-        <div class="foot-right">
-            <p>Tel:<a href="tel:+12012221998">(201) 222 1998</a></p>
-        </div>
-        <h4>Mi Mariachi | 2022</h4>
+        <section>
+            <div class="foot-left">
+                <h4 class="desktop-only">Location:</h4>
+                <p class="address">213 Sip Ave, Jersey City NJ 07306 </p>
+            </div>
+            <div class="desktop-only foot-center">
+                <h4>Thank you!</h4>
+                <p>Your support means everything to us.<br> Shop Local, Eat Fresh</p>
+            </div>
+            <div class="foot-right">
+                <h4>Tel:</h4><a href="tel:+12012221998">(201) 222 1998</a></p>
+            </div>
+        </section>
+        <h4 class="foot-logo-text">Mi Mariachi | 2022</h4>
     </footer>
 </body>
 </html>

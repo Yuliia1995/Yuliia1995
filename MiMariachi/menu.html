@@ -10,11 +10,16 @@
 <body>
     <header>
         <div class="mobile-only title-text">Mi Mariachi</div>
-        <img class="logo" src="/MiMariachi/assets/mariachi-logo.png" alt="">
+        <img class="logo desktop-only" src="/MiMariachi/assets/mariachi-logo-desktop.png" alt="">
+        <img class="logo mobile-only" src="/MiMariachi/assets/mariachi-logo.png" alt="">
         <div class="mobile-only title-text">Taquería</div>
+        <div class="desktop-only flex-col">
+            <h2>Mi Mariachi</h2>
+            <h2>Taquería</h2>
+        </div>
         <div class="desktop-only">
+            <a class="btn" href="/MiMariachi/index.html">Home</a>
             <a class="btn" href="/MiMariachi/aboutus.html">About Us</a>
-            <a class="btn" href="/MiMariachi/menu.html">Menu</a>
             <a class="btn" href="/MiMariachi/reservations.html">Make Reservation</a>
         </div>
     </header>
@@ -23,7 +28,7 @@
         <table>
             <tr>
                 <td class="category">Mexican Breakfast Platters</td>
-                <td class="descript desktop-only">served with rice, beans and corn tortilla</td>
+                <td class="descript desktop-only add-xtra-mg">served with rice, beans and corn tortilla</td>
                 <td class="price add-mg">9</td>
             </tr>
             <tr>
@@ -48,7 +53,7 @@
             </tr>
             <tr>
                 <td class="category">Tacos</td>
-                <td class="descript desktop-only">four tacos per order</td>
+                <td class="descript desktop-only add-xtra-mg">four tacos per order</td>
                 <td></td>
             </tr>
             <tr>
@@ -73,7 +78,7 @@
             </tr>
             <tr>
                 <td class="category">Burritos</td>
-                <td class="descript desktop-only">with rice, beans, sour cream, lettuce, tomato and mozzarella cheese</td>
+                <td class="descript desktop-only add-xtra-mg">with rice, beans, sour cream, lettuce, tomato and mozzarella cheese</td>
                 <td></td>
             </tr>
             <tr>
@@ -103,7 +108,7 @@
             </tr>
             <tr>
                 <td class="category">Sopes</td>
-                <td class="descript desktop-only">order of 3 topped with lettuce, tomato, beans, cheese and sour cream</td>
+                <td class="descript desktop-only add-xtra-mg">order of 3 topped with lettuce, tomato, beans, cheese and sour cream</td>
                 <td class="price add-mg">11</td>
             </tr>
             <tr>
@@ -123,7 +128,7 @@
             </tr>
             <tr>
                 <td class="category">Quesadillas</td>
-                <td class="descript desktop-only">order of 2 with lettuce, tomato, sour cream and cheese. Choice of flour or corn tortilla</td>
+                <td class="descript desktop-only add-xtra-mg">order of 2 with lettuce, tomato, sour cream and cheese. Choice of flour or corn tortilla</td>
                 <td></td>
             </tr>
             <tr>
@@ -173,7 +178,7 @@
             </tr>
             <tr>
                 <td class="category">Deserts</td>
-                <td class="descript desktop-only">traditional pastry from local mexican bakery</td>
+                <td class="descript desktop-only add-xtra-mg">traditional pastry from local mexican bakery</td>
                 <td class="price">3</td>
             </tr>
             <tr class="mobile-only">
@@ -184,18 +189,20 @@
     </section>
     <section class="mobile-only flex-link"><a class="btn" href="/MiMariachi/index.html">Home</a><a class="btn" href="/MiMariachi/aboutus.html">About Us</a><a class="btn less-pad" href="/MiMariachi/reservations.html">Make Reservation</a></section>
     <footer>
-        <div class="foot-left">
-            <p class="desktop-only">Location:</p>
-            <address>213 Sip Ave, Jersey City NJ 07306 </address>
-        </div>
-        <div class="desktop-only foot-center">
-            <h4>Thank you!</h4>
-            <p>Your support means everything to us.<br> Shop Local, Eat Fresh</p>
-        </div>
-        <div class="foot-right">
-            <p>Tel:<a href="tel:+12012221998">(201) 222 1998</a></p>
-        </div>
-        <h4>Mi Mariachi | 2022</h4>
+        <section>
+            <div class="foot-left">
+                <h4 class="desktop-only">Location:</h4>
+                <p class="address">213 Sip Ave, Jersey City NJ 07306 </p>
+            </div>
+            <div class="desktop-only foot-center">
+                <h4>Thank you!</h4>
+                <p>Your support means everything to us.<br> Shop Local, Eat Fresh</p>
+            </div>
+            <div class="foot-right">
+                <h4>Tel:</h4><a href="tel:+12012221998">(201) 222 1998</a></p>
+            </div>
+        </section>
+        <h4 class="foot-logo-text">Mi Mariachi | 2022</h4>
     </footer>
 </body>
 </html>
